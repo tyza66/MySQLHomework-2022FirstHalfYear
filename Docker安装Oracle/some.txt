@@ -46,6 +46,9 @@ H
 ​
  OME/bin:PATH
 在这里插入图片描述
+export ORACLE_HOME=/home/oracle/app/oracle/product/11.2.0/dbhome_2
+export ORACLE_SID=helowin
+export PATH=$ORACLE_HOME/bin:$PATH
 
 8、保存后执行source /etc/profile 加载环境变量；
 9、创建软连接
