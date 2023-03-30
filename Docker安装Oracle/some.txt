@@ -110,3 +110,33 @@ exit：退出软链接
   改完之后输入：ALTER PROFILE DEFAULT LIMIT PASSWORD_LIFE_TIME UNLIMITED;
 
   刷新下表  exit  是退休sql 软连接	
+
+
+sh-4.1$ su - oracle
+Password: 
+su: incorrect password
+sh-4.1$ su - oracle
+Password: 
+su: incorrect password
+sh-4.1$ su - oracle
+Password: 
+su: incorrect password
+sh-4.1$ su - oracle
+Password: 
+[oracle@4f8694b92f4d ~]$ sqlplus /nolog
+
+SQL*Plus: Release 11.2.0.1.0 Production on Thu Mar 30 17:34:06 2023
+
+Copyright (c) 1982, 2009, Oracle.  All rights reserved.
+
+SQL> conn / as sysdba
+Connected.
+SQL> select instance_name from v$instance;
+
+INSTANCE_NAME
+----------------
+helowin
+
+SQL> show user;
+USER is "SYS"
+SQL> 
