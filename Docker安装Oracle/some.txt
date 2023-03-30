@@ -142,3 +142,5 @@ USER is "SYS"
 SQL> 
 
 https://blog.csdn.net/chy555chy/article/details/124345973
+
+alter user system IDENTIFIED BY 123456
