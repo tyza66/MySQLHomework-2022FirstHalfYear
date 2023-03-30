@@ -122,7 +122,7 @@ sh-4.1$ su - oracle
 Password: 
 su: incorrect password
 sh-4.1$ su - oracle
-Password: 
+Password:    密码是oracle
 [oracle@4f8694b92f4d ~]$ sqlplus /nolog
 
 SQL*Plus: Release 11.2.0.1.0 Production on Thu Mar 30 17:34:06 2023
