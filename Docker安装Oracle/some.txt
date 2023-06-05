@@ -141,6 +141,10 @@ SQL> show user;
 USER is "SYS"
 SQL> 
 
+export ORACLE_HOME=/home/oracle/app/oracle/product/11.2.0/dbhome_2
+export ORACLE_SID=helowin
+export PATH=$ORACLE_HOME/bin:$PATH
+
 https://blog.csdn.net/chy555chy/article/details/124345973
 
 alter user system IDENTIFIED BY 123456
